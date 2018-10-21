@@ -15,6 +15,13 @@ namespace Web.Mvc.BillSales.Controllers
             return View();
         }
 
+        public IActionResult Index2()
+        {
+            ViewData["Message"] = "Inicio con mi nueva plantilla.";
+
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
