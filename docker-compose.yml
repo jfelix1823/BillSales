@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  web.mvc.billsales:
+    image: ${DOCKER_REGISTRY}webmvcbillsales
+    build:
+      context: .
+      dockerfile: Web.Mvc.BillSales/Dockerfile
